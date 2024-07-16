@@ -1,0 +1,167 @@
+
+
+
+#WasNoAuthorized{
+	
+	height:100%;
+	
+}
+
+#Enter{
+	
+	height:100%;
+	width:100vw;
+	background:white;
+	
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	
+	position:relative;
+	
+}
+
+
+
+#Enter h1{
+	
+	width:100%;
+	
+	height:max(25%,150px);
+
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	font-size:min(7vw,55px); 
+	font-weight:bold;
+	text-align:center;
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+	
+	
+	
+	
+	
+	
+}
+
+
+
+
+#Enter #InputCenter{
+	
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	position:relative;
+	
+}
+
+
+
+
+
+#Enter input{
+	
+	border-color:rgba(180,180,180,0.6);
+	border-width:2px;
+	border-style:solid;
+
+	font-size:min(6vw,45px);
+
+	height:max(10vh,60px);
+
+	max-height:70px;
+
+	width:90vw;
+	margin-top:20px;
+	border-radius:15px;
+
+	text-align:center;
+
+	z-index:1;
+	
+}
+
+
+
+
+#Enter input:nth-of-type(1){
+
+	margin-top:0px;
+	
+}
+
+
+#Enter input:nth-of-type(3){
+	
+	background:rgb(223,245,196);
+	color:grey;
+
+	
+}
+
+
+#Enter #IMG{
+	
+	height:300px;
+	width:100%;
+	
+}
+
+#Enter img{
+	
+	height:auto;
+	width:100%;
+	
+	
+	display:block;
+	
+	
+	
+	/*Центрирование, если будет нужно. Центрирование и сброс блока вниз*/
+	margin:auto;
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:0;
+	
+}
+
+
+
+#ErrorMessage{
+	
+	margin-top:20px;
+	z-index:1;
+	
+	height:max(8vh,60px);
+	width:90vw;
+	
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	
+	font-size:min(5vw,45px);
+	color:white;
+	text-align:center;
+	
+	background:black;
+	border-radius:15px;
+	
+	position:absolute;
+	bottom:-80px;
+	
+}
+
+
+
+

@@ -1,0 +1,43 @@
+
+
+@import url("../fonts/SanFrancisco/stylesheet.css");
+
+body{
+	
+	visibility: hidden;/*Во время загрузки страницы выключаем отображение body*/
+	font-family:'SF UI Text';
+	
+}
+
+#App{
+	
+	height:100%;
+	background:rgba(240,240,240);
+	
+}
+
+#UserIsAuthorized{
+	
+	height:100%;
+	background:rgba(240,240,240);
+	
+}
+
+
+
+/*Стилизация скролла только для ПК (для смартфонов и других подобных устройств работать не будет)*/
+
+@media not handheld{
+	
+	/* для Chrome/Edge/Safari */
+	*::-webkit-scrollbar {
+	  height: 12px;
+	  height: 0px;/*Устанавливаем нулевую ширину стролла (теперь на компах он будет недоступен,так как коретка будет иметь нулевую ширину, 
+	  то есть только на сенсорном экране можно будет скроллить)*/
+	  width:0px;
+	}
+	
+}
+
+
+

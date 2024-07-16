@@ -1,0 +1,145 @@
+
+
+.ButtonOfDay_DayFromThisMonth{
+	
+	height:40px;	
+	width:40px;
+	
+	background:none;
+	
+	font-size:20px;
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);/*убираем синее выделение у кнопок*/
+}
+
+.ButtonOfDay_DayFromThisMonth>p{
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+	background:none;
+	
+	max-height:40px;
+	max-width:40px;
+	border-radius:20px;
+	
+	height:12vw;
+	width:12vw;
+	
+	color:black;
+	
+}
+
+
+.ButtonOfDay_DayFromAnotherMonth{
+		
+	height:40px;	
+	width:40px;
+	background:none;
+
+	font-size:20px;
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+	border-radius:20px;
+	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);/*убираем синее выделение у кнопок*/
+	
+}
+
+.ButtonOfDay_DayFromAnotherMonth>p{
+	
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	
+	max-height:40px;
+	max-width:40px;
+	border-radius:20px;
+	
+	height:12vw;
+	width:12vw;
+	
+	
+	color:rgba(100,100,100,0.5);
+	
+}
+
+
+
+
+
+@keyframes Onclick{
+
+	from{
+		
+		background:rgb(240, 290, 220);
+		
+		//background:white;
+		
+		max-height:30px;
+		max-width:30px;
+		border-radius:20px;
+	
+		height:9vw;
+		width:9vw;
+		
+	}
+
+	 
+	to{
+			
+		background:green;
+		height:40px;
+		width:40px;
+		
+		
+		max-height:40px;
+		max-width:40px;
+		border-radius:20px;
+	
+		height:12vw;
+		width:12vw;
+		
+	}
+	 
+}
+
+
+
+.OnclickClass{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+	color:white;
+
+	animation:Onclick;
+	animation-duration:0.25s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+
+
+#Container{
+	
+	height:600px;
+	width:100%;
+	background:red;
+	display:flex;
+	align-items:center;
+	overflow-x:auto;
+	
+}
+
+
+
+#Container>div{
+	
+	height:400px;
+	width:100%;
+	background:green;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	flex-shrink:0;
+	
+}
+
+#Container>div:nth-child(1){background:green;  margin-right:20px}
+
+#Container>div:nth-child(2){background:blue; margin-right:20px; margin-left:20px;}
+
+#Container>div:nth-child(3){background:green; margin-left:20px;}
+
+
+
+#Status{
+
+	width:100%;
+	height:70px;
+	background:yellow;
+	display:flex;
+	align-items:center;
+	padding-left:30px;
+	
+}
+
+
+
+#ScrollDirection{
+	
+	width:100%;
+	height:30px;
+	display:flex;
+	align-items:center;
+	padding-left:30px;
+	background:yellow;
+}

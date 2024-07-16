@@ -1,0 +1,173 @@
+
+
+#Settings{
+	
+	background:rgba(240,240,240);
+	
+	height:100%;
+	
+}
+
+
+
+#Settings>#InformationOfGroup{
+	
+	margin-top:10px;
+	
+	height:40px;
+	text-align:center;
+	background:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+	font-size:18px;
+	
+	border-style:solid;
+	border-color:rgba(200,200,200);
+	border-width:1px;
+	
+	margin-bottom:10px;
+	
+	border-radius:10px;
+		
+}
+
+
+
+
+
+#Settings>#Exit{
+	
+	display:flex;
+	height:60px;
+	
+	background:white;
+	
+	display:flex;
+	align-items:center;
+	
+	border-style:solid;
+	border-color:rgba(200,200,200);
+	border-width:1px;
+	padding-left:10px;
+	margin-bottom:10px;
+	
+	border-radius:10px;
+	
+}
+
+#Settings>#Exit>img{
+	
+	
+	height:40px;
+	width:auto;
+	
+	
+	
+}
+
+#Settings>#Exit>p{
+	
+	height:100%;
+	width:auto;
+	
+	display:flex;
+	align-items:center;
+	
+	margin-left:10px;
+	
+	font-size:18px;
+		
+}
+
+
+
+#Settings>#ChangeSubgroup{
+	
+	padding-left:10px;
+	
+	border-style:solid;
+	border-color:rgba(200,200,200);
+	border-width:1px;
+	background:white;
+	
+	border-radius:10px;
+	
+	
+	
+}
+
+#Settings>#ChangeSubgroup>.Group{
+	
+	height:30px;
+	display:flex;
+	align-items:center;
+	
+}
+
+
+
+
+	
+.form_radio {
+	margin-bottom: 10px;
+}
+
+
+.form_radio input[type=radio] {
+	display: none;
+}
+
+
+
+.form_radio label {
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	padding-left: 25px;
+	margin-right: 0;
+	line-height: 18px;
+	user-select: none;
+	
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.form_radio label:before {
+	content: "";
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	left: 0;
+	
+	border-width:1px;
+	border-color:rgba(200,200,200);
+	border-style:solid;
+	border-radius:10px;
+	
+}
+
+/* Checked */
+.form_radio input[type=radio]:checked + label:before{
+	
+	background:green;
+	
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

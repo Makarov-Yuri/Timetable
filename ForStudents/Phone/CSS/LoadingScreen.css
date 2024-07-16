@@ -1,0 +1,30 @@
+
+
+#LoadingScreen{
+	
+	height:100%;
+	width:100%;
+	background:white;
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+#LoadingScreen>img{
+	
+	max-height:260px;
+	max-width:260px;
+	height:auto;
+	width:auto;
+	
+}
+
+
+
+
+
+
+
+
